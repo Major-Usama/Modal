@@ -1,17 +1,25 @@
-import React from "react";
-import {
-  createBottomTabNavigator
-} from "@react-navigation/bottom-tabs";
-import { SafeAreaProvider } from "react-native-safe-area-context";
-import { NavigationContainer } from "@react-navigation/native";
-import {BottomMenu} from "./src/components/BottomMenu/BottomMenu";
+import React from 'react'
+import { StyleSheet,SafeAreaView } from 'react-native'
+import Navigation from './src/navigation/Navigation'
+
 
 export default function App() {
+  console.disableYellowBox = true;
   return (
-    <NavigationContainer>
-      <SafeAreaProvider>
-          <BottomMenu/>
-      </SafeAreaProvider>
-    </NavigationContainer>
-  );
+     
+    
+    <Navigation />
+  )
+    
+      
+  
 }
+
+const styles = StyleSheet.create({
+
+
+
+
+
+
+})

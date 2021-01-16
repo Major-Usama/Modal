@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "rnModal",
-    "slug": "rnModal",
-    "version": "1.0.3",
+    "name": "Daily Prompt",
+    "slug": "Daily",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#6c63ff"
+      "backgroundColor": "#fff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,10 +22,10 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-
     "android": {
       "package": "com.yourdevusama.Demo",
-      "versionCode": 2
-    }
+      "versionCode": 3
+    },
+    "description": ""
   }
 }
