@@ -35,7 +35,7 @@ export default function HomeScreen({navigation}) {
           </View>
 
           <View style={styles.bellIconContainer}>
-            <EvilIcons name="bell" size={20} color="black" />
+            <EvilIcons onPress={()=>navigation.navigate('Chatter')} name="bell" size={20} color="black" />
             <View style={styles.badge} />
           </View>
         </View>
